@@ -1,0 +1,179 @@
+.container{
+    margin: 20px;
+    padding: 10px;
+    width: 97%;
+    height: auto;
+    background-color: rgb(216, 216, 209);
+}
+.productList{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.form{
+    width: 98%;
+    height: auto;
+    margin: 10px;
+}
+form{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding:20px;
+}
+table{
+    width: 100%;
+    background-color: rgb(121, 127, 218);
+
+}
+tr{
+    border-radius: 10px;
+}
+table, th, td {
+    
+    padding: 10px;
+    border: 2px solid rgb(255, 249, 249);
+    border-collapse: collapse;
+
+  }
+th{
+    text-align: center;
+   font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 18px;
+    align-items: center;
+    letter-spacing: 2px;
+    color: #1d1d1d;
+}
+td{
+   text-align: center;
+   font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    align-items: center;
+    letter-spacing: 2px;
+    color: #f5f5f5;
+}
+.field{
+    margin-left: 20px;
+}
+.label{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #000000;
+    
+}
+.input{
+background: #FFFFFF;
+border: 1px solid #4F4F4F;
+box-sizing: border-box;
+border-radius: 4px;
+height: 40px;
+width: 200px;
+padding-left: 10px;
+padding-right: 10px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+align-items: center;
+text-align: center;
+letter-spacing: 2px;
+}
+button{
+    height: 40px;
+    width: 130px;        
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    
+}
+button:hover{
+    background-color: tomato;
+    cursor: pointer;
+}
+.addButton{
+    margin-left: 20%;
+}
+.cancel{
+    background-color: white;
+    color: black;
+}
+.checkButtonD{
+    height: 100%;
+    width: 50%;
+    border: 2px solid rgb(228, 210, 210);
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 3px;
+    background-color: rgb(53, 243, 53);
+    color: white;
+    box-shadow: 2px 2px 2px white;
+}
+.checkButtonU{
+    height: 100%;
+    width: 60%;
+    border: 2px solid rgb(209, 202, 202);
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 3px;
+    background-color: rgb(243, 113, 53);
+    color: white;
+    box-shadow: 2px 2px 6px rgb(241, 236, 236);
+}
+.checkButton:hover{
+    border: 4px solid white;
+    color: black;
+    font-weight: 500;
+
+}
+.editForm{
+    transform: translate(-50%,-50%) scale(0); 
+   
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    height: auto;
+    border-radius: 4px;
+    z-index: 4;
+    width: 40%;
+    height: auto;
+    z-index: 4;
+    text-align: center;
+    
+    
+    background: #FFFFFF;
+    /* Gray 2 */
+    
+    border: 1px solid #4F4F4F;
+    box-sizing: border-box;
+    /* Drop_1 */
+    
+    box-shadow: 0px 4px 30px black;
+   
+    
+    
+}
+.edit{
+    
+    display: block;}
